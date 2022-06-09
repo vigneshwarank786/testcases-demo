@@ -1,0 +1,6 @@
+{
+    "name": "nodejs-task",
+    "jest": {
+      "verbose": true
+    }
+  }
