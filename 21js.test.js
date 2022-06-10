@@ -1,5 +1,5 @@
-const posi=require('./21js')
+const posi = require('./21js')
 
-test("find the maximum number",()=>{
-    expect(posi(8)).toBe()
+test("find the maximum number", () => {
+    expect(posi(0)).toBe()
 })

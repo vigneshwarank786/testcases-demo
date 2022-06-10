@@ -1,9 +1,13 @@
 
-var ch=5;
+function albha(ch) {
+    if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+      return ('is an Alphapet')
+    }
+    else {
+        return ('not albhabet')
+    }
 
-if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
-    console.log(ch + " is an Alphabet ");
 }
-else {
-    console.log(ch + " is not an Alphabet ");
-}
+
+module.exports=albha;
+

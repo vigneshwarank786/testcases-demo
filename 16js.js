@@ -1,4 +1,4 @@
-function marks(a, b, c, d, e) {
+function marks(a, b, c, d,e) {
 
   total = a + b + c + d + e;
     percentage = (total / 500.0) * 100;

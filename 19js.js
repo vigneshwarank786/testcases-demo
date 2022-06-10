@@ -1,6 +1,11 @@
 function maximum(a, b) {
-    maxi = Math.max(a, b);
-    return maxi
+   
+    if(a>b){
+        return a;
+    }
+    else{
+        return b;
+    }
 
 }
 
