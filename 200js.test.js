@@ -1,6 +1,6 @@
 const rem=require('./200js')
 
 
-test("find reverse string",()=>{
+test("remove extra braces",()=>{
     expect(rem()).toBe("vickey")
 })
