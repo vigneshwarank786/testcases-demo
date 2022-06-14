@@ -2,5 +2,5 @@ const find=require('./140js')
 
 
 test("find an array",()=>{
-    expect(find()).toBe(1)
+    expect(find(["robin", "vicky", "dhatchu", "siV"])).toBe(1)
 })

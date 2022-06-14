@@ -1,6 +1,6 @@
-const array=require('./222js')
+const reverse=require('./222js')
 
 
 test("print the all array using recursion",()=>{
-    expect(array()).toStrictEqual(["vicky", "robin", "dhatchu"])
+    expect(reverse(["vicky", "robin", "dhatchu"])).toStrictEqual(["vicky", "robin", "dhatchu"])
 })

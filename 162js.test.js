@@ -1,6 +1,6 @@
-const matrix=require('./162js')
+const isSymmetric=require('./162js')
 
 
 test("symetric matrix",()=>{
-    expect(matrix()).toBe("Yes")
+    expect(isSymmetric()).toBe("")
 })

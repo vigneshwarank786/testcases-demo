@@ -1,5 +1,5 @@
-function rem() {
-    var str = "        vickey         ";
+function rem(val) {
+    var str =val;
     a = str.trim();
     return a;
 }

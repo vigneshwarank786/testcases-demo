@@ -1,6 +1,6 @@
-function revstr()
+function revstr(val)
 {
-    var a='vigneshwaran';
+    var a=val;
     a = [...a].reverse().join("");
     return a;
 }

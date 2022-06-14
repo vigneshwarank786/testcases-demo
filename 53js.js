@@ -1,8 +1,8 @@
-function natural(){
-  for(i=1;i<=5;i++){
+function natural(n){
 
-console.log(i);
-     
+  for(i=1;i<=n;i++)
+  {
+      return i
    }
     
 }

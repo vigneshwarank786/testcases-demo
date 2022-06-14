@@ -1,15 +1,16 @@
-function array() {
+function reverse(val) {
+  function array() {
     for (i = 1; i < arr.length; i++) {
       return arr;
     }
     return array(arr[i]);
   }
-  
-  
-  var arr = ['vicky', 'robin', 'dhatchu'];
+  var arr = val;
   i = 1;
-  
-  console.log(" is " + array(arr[i]));
-  
-  
-  module.exports = array;
+  return (array(arr[i]));
+}
+
+
+
+
+module.exports = reverse;

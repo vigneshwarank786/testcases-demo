@@ -1,9 +1,9 @@
 
 
-function dub() {
+function dub(val) {
 
     const counts = {};
-    const sampleArray = ['a', 'a', 'b', 'c'];
+    const sampleArray = val;
     sampleArray.forEach(function (n) {
         counts[n] = (counts[n] || 0) + 1;
     });

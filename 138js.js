@@ -1,7 +1,7 @@
 
-function reverse(){
+function reverse(val){
 
-    var a=['vickey','robin']
+    var a=val;
 
     b=a.reverse();
     return b;

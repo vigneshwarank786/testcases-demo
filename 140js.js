@@ -1,6 +1,6 @@
-function find(){
+function find(val){
 
-    people = ["robin", "vicky", "dhatchu", "siV"];
+    people = val;
     data=(people.indexOf("vicky"));
     return data
 

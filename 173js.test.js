@@ -2,5 +2,5 @@ const revstr=require('./173js')
 
 
 test("find reverse string",()=>{
-    expect(revstr()).toBe("narawhsengiv")
+    expect(revstr('vigneshwaran')).toBe("narawhsengiv")
 })
