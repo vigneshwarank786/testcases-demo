@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script>
+
+
+        var paradiv = document.createElement('div');
+        paradiv.style.display = "flex";
+        paradiv.style.flexDirection = "row";
+        paradiv.style.justifyContent = "center";
+        paradiv.style.flexWrap = "wrap";
+        paradiv.setAttribute('id', 'main');
+        document.body.appendChild(paradiv)
+
+        for (i = 1; i <= 9; i++) {
+
+            var mydiv1 = document.createElement('div');
+            mydiv1.style.height = '200px';
+            mydiv1.style.flex = "0 0 25%";
+            mydiv1.style.width = '200px';
+            mydiv1.style.backgroundColor = "wheat"
+            mydiv1.style.margin = '5px';
+            mydiv1.style.textAlign = "center";
+            mydiv1.style.fontSize = "140px";
+            // mydiv1.setAttribute('id', 'b1');
+            // mydiv1.setAttribute('onClick', 'myfunc_3()')
+                flag = 1;
+               mydiv1.onclick=function myfunc_3() {
+                    if (flag == 1) {
+                        this.innerText = "X";
+                        this.style.pointerEvents = "none";
+                        return flag = 0;
+                    }
+                    else {
+                        this.innerText = "0";
+                        this.style.pointerEvents = "none";
+                        return flag = 1;
+                    }
+            }
+
+
+            paradiv.appendChild(mydiv1);
+        }
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
